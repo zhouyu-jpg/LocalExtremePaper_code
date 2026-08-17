@@ -1,0 +1,44 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Cython and compiler outputs
+build/
+dist/
+*.c
+*.cpp
+*.o
+*.obj
+*.so
+*.pyd
+*.dll
+
+# Downloaded source data
+Data/*.csv
+Data/*.part
+!Data/README.md
+
+# Generated five-day parameters and summaries
+SAS_4Param_Window_Results_TMAX/
+SAS_4Param_Window_Results_TMIN/
+sas4_window_TMAX.csv
+sas4_window_TMIN.csv
+
+# Generated configurable-window parameters and densities
+SAS_4Param_*DayWindow_Results_TMAX/
+SAS_4Param_*DayWindow_Results_TMIN/
+Results_SHASH_Cython_TMAX_*/
+Results_SHASH_Cython_TMIN_*/
+
+# Generated five-day densities
+GHCN-Res/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

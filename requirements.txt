@@ -1,0 +1,7 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+Cython>=3.0
+setuptools>=68
+joblib>=1.3
+tqdm>=4.65
